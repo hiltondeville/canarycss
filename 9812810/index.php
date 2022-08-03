@@ -1,6 +1,6 @@
 <?php
 
-$upDate = strtotime('23-11-2019');
+$upDate = strtotime('16-01-2021');
 
 
 
@@ -59,102 +59,25 @@ $hideHeader = 'hidden-xs-up';
     <th>Friday</th>
     <th>Saturday</th>
    </thead>
-   <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
-       <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-       <td class=''>1</td>
-       <td class=' red'>R</td>
-       <td class=' red'>R</td>
-       <td class=' gray'>15 - 23 Canary Wharf</td>
-       <td class=' gray'>15 - 23 Canary Wharf</td>
-       <td class=' gray'>15 - 23 Canary Wharf</td>
-       <td class=' gray'>15 - 23 Canary Wharf</td>
-       <td class=' gray'>15 - 23 Canary Wharf</td>
-       <td class=''></td>
-     </tr>
-   <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
-       <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-       <td class=''>2</td>
-       <td class=' gray'>15 - 23 Canary Wharf</td>
-       <td class=' gray'>15 - 23 Canary Wharf</td>
-       <td class=' red'>R</td>
-       <td class=' red'>R</td>
-       <td class=' gray'>11 - 19 Canary Wharf</td>
-       <td class=' gray'>11 - 19 Canary Wharf</td>
-       <td class=' gray'>11 - 19 Canary Wharf</td>
-       <td class=''></td>
-     </tr>
-   <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
-
-       <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-       <td class='red'>3 Annual Leave</td>
-       <td class=' gray'>11 - 19 Canary Wharf</td>
-       <td class=' gray'>11 - 19 Canary Wharf</td>
-       <td class=' gray'>11 - 19 Canary Wharf</td>
-       <td class=' red'>R</td>
-       <td class=' red'>R</td>
-       <td class=' gray'>7 - 15 Canary Wharf</td>
-       <td class=' gray'>7 - 15 Canary Wharf</td>
-       <td class=''></td>
-     </tr>
-   <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
-
-       <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-       <td class=''>4</td>
-       <td class=' gray'>7 - 15 Canary Wharf</td>
-       <td class=' gray'>7 - 15 Canary Wharf</td>
-       <td class=' gray'>7 - 15 Canary Wharf</td>
-       <td class=' gray'>7 - 15 Canary Wharf</td>
-       <td class=' gray'>7 - 15 Canary Wharf</td>
-       <td class=' red'>R</td>
-       <td class=' red'>R</td>
-       <td class=''></td>
-     </tr>
-   <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
-
-       <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-       <td class=''>5</td>
-       <td class=' red'>R</td>
-       <td class=' red'>R</td>
-      <td class=' gray'>15 - 23 Canary Wharf</td>
-      <td class=' gray'>15 - 23 Canary Wharf</td>
-      <td class=' gray'>15 - 23 Canary Wharf</td>
-      <td class=' gray'>15 - 23 Canary Wharf</td>
-      <td class=' gray'>15 - 23 Canary Wharf</td>
-
-       <td class=''></td>
-     </tr>
-   <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
-
-       <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-       <td class=''>6</td>
-       <td class=' gray'>15 - 23 Canary Wharf</td>
-       <td class=' gray'>15 - 23 Canary Wharf</td>
-       <td class=' red'>R</td>
-       <td class=' gray'>11 - 19 Canary Wharf</td>
-       <td class=' red'>R</td>
-       <td class=' black'>7 - 15 North Greenwich</td>
-       <td class=' black'>7 - 15 North Greenwich</td>
-       <td class=''></td>
-     </tr>
    <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
         <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
         <td class=''>7</td>
-        <td class=' black'>7 - 15 North Greenwich</td>
-        <td class=' black'>7 - 15 North Greenwich</td>
-        <td class=' black'>7 - 15 North Greenwich</td>
-        <td class=' black'>7 - 15 North Greenwich</td>
-        <td class=' black'>7 - 15 North Greenwich</td>
-        <td class=' red'>R</td>
-        <td class=' red'>R</td>
+        <td class='bg-primary'>COVER WEEK</td>
+        <td class='bg-primary'>COVER WEEK</td>
+        <td class='bg-primary'>COVER WEEK</td>
+        <td class='bg-primary'>COVER WEEK</td>
+        <td class='bg-primary'>COVER WEEK</td>
+        <td class='bg-primary'>COVER WEEK</td>
+        <td class='bg-primary'>COVER WEEK</td>
        <td class=''></td>
      </tr>
    <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
        <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-       <td class='red'>8 Annual Leave</td>
+       <td class=''>8</td>
        <td class='bg-primary'>COVER WEEK</td>
        <td class='bg-primary'>COVER WEEK</td>
        <td class='bg-primary'>COVER WEEK</td>
@@ -167,7 +90,7 @@ $hideHeader = 'hidden-xs-up';
    <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
        <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-       <td class=''>9 </td>
+       <td class='red'>9 Annual Leave</td>
        <td class=' black'>8 - 16 North Greenwich</td>
        <td class=' black'>7 - 15 North Greenwich</td>
        <td class=' black'>7 - 15 North Greenwich</td>
@@ -231,7 +154,7 @@ $hideHeader = 'hidden-xs-up';
        <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
            <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-           <td class=''>4</td>
+           <td class='red'>4 Annual Leave</td>
            <td class=' gray'>7 - 15 Canary Wharf</td>
            <td class=' gray'>7 - 15 Canary Wharf</td>
            <td class=' gray'>7 - 15 Canary Wharf</td>
@@ -271,26 +194,26 @@ $hideHeader = 'hidden-xs-up';
 
            <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
            <td class=''>7</td>
-           <td class='bg-primary'>COVER WEEK</td>
-           <td class='bg-primary'>COVER WEEK</td>
-           <td class='bg-primary'>COVER WEEK</td>
-           <td class='bg-primary'>COVER WEEK</td>
-           <td class='bg-primary'>COVER WEEK</td>
-           <td class='bg-primary'>COVER WEEK</td>
-           <td class='bg-primary'>COVER WEEK</td>
+           <td class=' red'>R</td>
+           <td class=' red'>R</td>
+           <td class=' black'>16 - 24 North Greenwich</td>
+           <td class=' black'>16 - 24 North Greenwich</td>
+           <td class=' black'>16 - 24 North Greenwich</td>
+           <td class=' black'>16 - 24 North Greenwich</td>
+           <td class=' black'>16 - 24 North Greenwich</td>
            <td class=''></td>
          </tr>
        <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
            <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
            <td class=''>8</td>
-           <td class='bg-primary'>COVER WEEK</td>
-           <td class='bg-primary'>COVER WEEK</td>
-           <td class='bg-primary'>COVER WEEK</td>
-           <td class='bg-primary'>COVER WEEK</td>
-           <td class='bg-primary'>COVER WEEK</td>
-           <td class='bg-primary'>COVER WEEK</td>
-           <td class='bg-primary'>COVER WEEK</td>
+           <td class='bg-primary'>15 - 23 LATE SPARE</td>
+           <td class=' red'>R</td>
+           <td class='bg-primary'>10 - 18 MID SPARE</td>
+           <td class='bg-primary'>10 - 18 MID SPARE</td>
+           <td class='bg-primary'>10 - 18 MID SPARE</td>
+           <td class='bg-primary'>10 - 18 MID SPARE</td>
+           <td class=' red'>R</td>
            <td class=''></td>
          </tr>
        <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
@@ -321,7 +244,7 @@ $hideHeader = 'hidden-xs-up';
            <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-               <td class=''>1</td>
+               <td class='red'>1 Annual Leave</td>
                <td class=' red'>R</td>
                <td class=' red'>R</td>
                <td class=' gray'>15 - 23 Canary Wharf</td>
@@ -425,7 +348,7 @@ $hideHeader = 'hidden-xs-up';
            <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-               <td class='red'>9 Annual Leave</td>
+               <td class=''>9</td>
                <td class=' black'>8 - 16 North Greenwich</td>
                <td class=' black'>7 - 15 North Greenwich</td>
                <td class=' black'>7 - 15 North Greenwich</td>
@@ -463,7 +386,7 @@ $hideHeader = 'hidden-xs-up';
                <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                    <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                   <td class=''>2</td>
+                   <td class='red'>2 Annual Leave</td>
                    <td class=' gray'>15 - 23 Canary Wharf</td>
                    <td class=' gray'>15 - 23 Canary Wharf</td>
                    <td class=' red'>R</td>
@@ -476,7 +399,7 @@ $hideHeader = 'hidden-xs-up';
                <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                    <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                   <td class=''>3</td>
+                   <td class='red'>3 Annual Leave</td>
                    <td class=' gray'>11 - 19 Canary Wharf</td>
                    <td class=' gray'>11 - 19 Canary Wharf</td>
                    <td class=' gray'>11 - 19 Canary Wharf</td>
@@ -631,7 +554,7 @@ $hideHeader = 'hidden-xs-up';
                    <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                        <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                       <td class='red'>5 Annual Leave</td>
+                       <td class=''>5</td>
                        <td class=' red'>R</td>
                        <td class=' red'>R</td>
                        <td class=' black'>16 - 24 North Greenwich</td>
@@ -644,7 +567,7 @@ $hideHeader = 'hidden-xs-up';
                    <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                        <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                       <td class='red'>6 Annual Leave</td>
+                       <td class=''>6</td>
                        <td class=' black'>16 - 24 North Greenwich</td>
                        <td class=' black'>16 - 24 North Greenwich</td>
                        <td class=' red'>R</td>
@@ -670,7 +593,7 @@ $hideHeader = 'hidden-xs-up';
                    <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                        <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                       <td class=''>8</td>
+                       <td class='red'>8 Annual Leave</td>
                        <td class='bg-primary'>COVER WEEK</td>
                        <td class='bg-primary'>COVER WEEK</td>
                        <td class='bg-primary'>COVER WEEK</td>
@@ -786,7 +709,7 @@ $hideHeader = 'hidden-xs-up';
                        <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                            <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                           <td class='red'>7 Annual Leave</td>
+                           <td class=''>7</td>
                            <td class='bg-primary'>COVER WEEK</td>
                            <td class='bg-primary'>COVER WEEK</td>
                            <td class='bg-primary'>COVER WEEK</td>
@@ -916,32 +839,30 @@ $hideHeader = 'hidden-xs-up';
 
                                <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
                                <td class=''>7</td>
-                               <td class='bg-primary'>COVER WEEK</td>
-                               <td class='bg-primary'>COVER WEEK</td>
-                               <td class='bg-primary'>COVER WEEK</td>
-                               <td class='bg-primary'>COVER WEEK</td>
-                               <td class='bg-primary'>COVER WEEK</td>
-                               <td class='bg-primary'>COVER WEEK</td>
-                               <td class='bg-primary'>COVER WEEK</td>
-                               <td class=''></td>
+                               <td class=' red'>R</td>
+                               <td class=' gray'>11 - 19 Canary Wharf</td>
+                               <td class=' gray'>11 - 19 Canary Wharf</td>
+                               <td class=' red'>R</td>
+                               <td class=' black'>16 - 24 North Greenwich</td>
+                               <td class=' black'>16 - 24 North Greenwich</td>
+                               <td class=' black'>16 - 24 North Greenwich</td>
                              </tr>
                            <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
                                <td class=''>8</td>
-                               <td class='bg-primary'>COVER WEEK</td>
-                               <td class='bg-primary'>COVER WEEK</td>
-                               <td class='bg-primary'>COVER WEEK</td>
-                               <td class='bg-primary'>COVER WEEK</td>
-                               <td class='bg-primary'>COVER WEEK</td>
-                               <td class='bg-primary'>COVER WEEK</td>
-                               <td class='bg-primary'>COVER WEEK</td>
-                               <td class=''></td>
+                               <td class=' black'>16 - 24 North Greenwich</td>
+                               <td class=' black'>16 - 24 North Greenwich</td>
+                               <td class=' red'>R</td>
+                               <td class=' gray'>11 - 19 Canary Wharf</td>
+                               <td class=' red'>R</td>
+                               <td class=' black'>7 - 15 North Greenwich</td>
+                               <td class=' black'>7 - 15 North Greenwich</td>
                              </tr>
                            <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                               <td class='red'>9 Annual Leave</td>
+                               <td class=''>9</td>
                                <td class=' black'>8 - 16 North Greenwich</td>
                                <td class=' black'>7 - 15 North Greenwich</td>
                                <td class=' black'>7 - 15 North Greenwich</td>
@@ -1005,7 +926,7 @@ $hideHeader = 'hidden-xs-up';
                                <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                    <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                                   <td class=''>4</td>
+                                   <td class='red'>4 Annual Leave</td>
                                    <td class=' gray'>7 - 15 Canary Wharf</td>
                                    <td class=' gray'>7 - 15 Canary Wharf</td>
                                    <td class=' gray'>7 - 15 Canary Wharf</td>
@@ -1045,26 +966,27 @@ $hideHeader = 'hidden-xs-up';
 
                                    <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
                                    <td class=''>7</td>
-                                   <td class='bg-primary'>COVER WEEK</td>
-                                   <td class='bg-primary'>COVER WEEK</td>
-                                   <td class='bg-primary'>COVER WEEK</td>
-                                   <td class='bg-primary'>COVER WEEK</td>
-                                   <td class='bg-primary'>COVER WEEK</td>
-                                   <td class='bg-primary'>COVER WEEK</td>
-                                   <td class='bg-primary'>COVER WEEK</td>
+                                   <td class=' black'>16 - 24 North Greenwich</td>
+                                   <td class=' black'>16 - 24 North Greenwich</td>
+                                   <td class=' red'>R</td>
+                                   <td class=' gray'>11 - 19 Canary Wharf</td>
+                                   <td class=' gray'>11 - 19 Spare</td>
+                                   <td class=' gray'>10 - 18 Spare</td>
+                                   <td class=' red'>R</td>
                                    <td class=''></td>
                                  </tr>
                                <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                    <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
                                    <td class=''>8</td>
-                                   <td class='bg-primary'>COVER WEEK</td>
-                                   <td class='bg-primary'>COVER WEEK</td>
-                                   <td class='bg-primary'>COVER WEEK</td>
-                                   <td class='bg-primary'>COVER WEEK</td>
-                                   <td class='bg-primary'>COVER WEEK</td>
-                                   <td class='bg-primary'>COVER WEEK</td>
-                                   <td class='bg-primary'>COVER WEEK</td>
+                                   <td class=' red'>R</td>
+                                   <td class=' gray'>15 - 23 Spare</td>
+                                   <td class=' gray'>15 - 23 Spare</td>
+                                   <td class=' gray'>15 - 23 Spare</td>
+
+                                   <td class=' red'>R</td>
+                                   <td class=' gray'>7 - 15 Spare</td>
+                                   <td class=' gray'>7 - 15 Canary CSA</td>
                                    <td class=''></td>
                                  </tr>
                                <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
@@ -1108,7 +1030,7 @@ $hideHeader = 'hidden-xs-up';
                                    <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                        <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                                       <td class=''>2</td>
+                                       <td class='red'>2 Annual Leave</td>
                                        <td class=' gray'>15 - 23 Canary Wharf</td>
                                        <td class=' gray'>15 - 23 Canary Wharf</td>
                                        <td class=' red'>R</td>
@@ -1121,7 +1043,7 @@ $hideHeader = 'hidden-xs-up';
                                    <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                        <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                                       <td class=''>3</td>
+                                       <td class='red'>3 Annual Leave</td>
                                        <td class=' gray'>11 - 19 Canary Wharf</td>
                                        <td class=' gray'>11 - 19 Canary Wharf</td>
                                        <td class=' gray'>11 - 19 Canary Wharf</td>
@@ -1237,7 +1159,7 @@ $hideHeader = 'hidden-xs-up';
                                        <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                            <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                                           <td class=''>2</td>
+                                           <td class='red'>2 Annual Leave</td>
                                            <td class=' gray'>15 - 23 Canary Wharf</td>
                                            <td class=' gray'>15 - 23 Canary Wharf</td>
                                            <td class=' red'>R</td>
@@ -1250,7 +1172,7 @@ $hideHeader = 'hidden-xs-up';
                                        <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                            <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                                           <td class=''>3</td>
+                                           <td class='red'>3 Annual Leave</td>
                                            <td class=' gray'>11 - 19 Canary Wharf</td>
                                            <td class=' gray'>11 - 19 Canary Wharf</td>
                                            <td class=' gray'>11 - 19 Canary Wharf</td>
@@ -1263,7 +1185,7 @@ $hideHeader = 'hidden-xs-up';
                                        <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                            <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                                           <td class=''>4</td>
+                                           <td class='red'>4 Annual Leave</td>
                                            <td class=' gray'>7 - 15 Canary Wharf</td>
                                            <td class=' gray'>7 - 15 Canary Wharf</td>
                                            <td class=' gray'>7 - 15 Canary Wharf</td>
@@ -1303,26 +1225,26 @@ $hideHeader = 'hidden-xs-up';
 
                                            <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
                                            <td class=''>7</td>
-                                           <td class='bg-primary'>COVER WEEK</td>
-                                           <td class='bg-primary'>COVER WEEK</td>
-                                           <td class='bg-primary'>COVER WEEK</td>
-                                           <td class='bg-primary'>COVER WEEK</td>
-                                           <td class='bg-primary'>COVER WEEK</td>
-                                           <td class='bg-primary'>COVER WEEK</td>
-                                           <td class='bg-primary'>COVER WEEK</td>
+                                           <td class=' red'>R</td>
+                                           <td class=' red'>R</td>
+                                           <td class=' black'>16 - 24 North Greenwich</td>
+                                           <td class=' black'>16 - 24 North Greenwich</td>
+                                           <td class=' black'>16 - 24 North Greenwich</td>
+                                           <td class=' black'>16 - 24 North Greenwich</td>
+                                           <td class=' black'>16 - 24 North Greenwich</td>
                                            <td class=''></td>
                                          </tr>
                                        <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                            <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
                                            <td class=''>8</td>
-                                           <td class='bg-primary'>COVER WEEK</td>
-                                           <td class='bg-primary'>COVER WEEK</td>
-                                           <td class='bg-primary'>COVER WEEK</td>
-                                           <td class='bg-primary'>COVER WEEK</td>
-                                           <td class='bg-primary'>COVER WEEK</td>
-                                           <td class='bg-primary'>COVER WEEK</td>
-                                           <td class='bg-primary'>COVER WEEK</td>
+                                           <td class=' black'>16 - 24 North Greenwich</td>
+                                           <td class=' black'>16 - 24 North Greenwich</td>
+                                           <td class=' red'>R</td>
+                                           <td class=' gray'>11 - 19 Canary Wharf</td>
+                                           <td class=' red'>R</td>
+                                           <td class=' black'>7 - 15 North Greenwich</td>
+                                           <td class=' black'>7 - 15 North Greenwich</td>
                                            <td class=''></td>
                                          </tr>
                                        <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
@@ -1457,7 +1379,7 @@ $hideHeader = 'hidden-xs-up';
                                            <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                                <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                                               <td class=''>9</td>
+                                               <td class='red'>9 Annual Leave</td>
                                                <td class=' black'>8 - 16 North Greenwich</td>
                                                <td class=' black'>7 - 15 North Greenwich</td>
                                                <td class=' black'>7 - 15 North Greenwich</td>
@@ -1482,7 +1404,7 @@ $hideHeader = 'hidden-xs-up';
                                                <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                                    <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                                                   <td class=''>1</td>
+                                                   <td class='red'>1 Annual Leave</td>
                                                    <td class=' red'>R</td>
                                                    <td class=' red'>R</td>
                                                    <td class=' gray'>15 - 23 Canary Wharf</td>
@@ -1573,7 +1495,7 @@ $hideHeader = 'hidden-xs-up';
                                                <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                                    <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                                                   <td class=''>8</td>
+                                                   <td class='red'>8 Annual Leave</td>
                                                    <td class='bg-primary'>COVER WEEK</td>
                                                    <td class='bg-primary'>COVER WEEK</td>
                                                    <td class='bg-primary'>COVER WEEK</td>
@@ -1650,7 +1572,7 @@ $hideHeader = 'hidden-xs-up';
                                                    <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                                        <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
-                                                       <td class=''>4</td>
+                                                       <td class='red'>4 Annual Leave</td>
                                                        <td class=' gray'>7 - 15 Canary Wharf</td>
                                                        <td class=' gray'>7 - 15 Canary Wharf</td>
                                                        <td class=' gray'>7 - 15 Canary Wharf</td>

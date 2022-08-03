@@ -1,5 +1,5 @@
 <?php
-$upDate = strtotime('8-9-2018');
+$upDate = strtotime('18-09-2021');
 
 $name = "Maxine Rowe";
 
@@ -59,6 +59,61 @@ $hideHeader = 'hidden-xs-up';
    </thead>
 
 
+
+
+
+   <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
+
+       <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
+       <td class=''>3</td>
+       <td class=' gray'>11 - 19 Canary Wharf</td>
+       <td class=' gray'>11 - 19 Canary Wharf</td>
+       <td class=' gray'>11 - 19 Canary Wharf</td>
+       <td class=' red'>R</td>
+       <td class=' red'>R</td>
+       <td class=' gray'>7 - 15 Canary Wharf</td>
+       <td class=' gray'>7 - 15 Canary Wharf</td>
+       <td class=''></td>
+     </tr>
+   <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
+
+       <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
+       <td class=''>4</td>
+       <td class=' gray'>7 - 15 Canary Wharf</td>
+       <td class=' gray'>7 - 15 Canary Wharf</td>
+       <td class=' gray'>7 - 15 Canary Wharf</td>
+       <td class=' gray'>7 - 15 Canary Wharf</td>
+       <td class=' gray'>7 - 15 Canary Wharf</td>
+       <td class=' red'>R</td>
+       <td class=' red'>R</td>
+       <td class=''></td>
+     </tr>
+   <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
+
+       <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
+       <td class=''>5</td>
+       <td class=' red'>R</td>
+       <td class=' red'>R</td>
+       <td class=' black'>16 - 24 North Greenwich</td>
+       <td class=' black'>16 - 24 North Greenwich</td>
+       <td class=' black'>16 - 24 North Greenwich</td>
+       <td class=' black'>16 - 24 North Greenwich</td>
+       <td class=' black'>16 - 24 North Greenwich</td>
+       <td class=''></td>
+     </tr>
+   <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
+
+       <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
+       <td class=''>6</td>
+       <td class=' black'>16 - 24 North Greenwich</td>
+       <td class=' black'>16 - 24 North Greenwich</td>
+       <td class=' red'>R</td>
+       <td class=' gray'>11 - 19 Canary Wharf</td>
+       <td class=' red'>R</td>
+       <td class=' black'>7 - 15 North Greenwich</td>
+       <td class=' black'>7 - 15 North Greenwich</td>
+       <td class=''></td>
+     </tr>
     <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
         <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
