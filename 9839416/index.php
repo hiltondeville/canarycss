@@ -1,7 +1,7 @@
 <?php
 $upDate = strtotime('23-01-2021');
 
-$name = "Mehwish Hanfi";
+$name = "MH";
 
 $empno = 9839416;
 

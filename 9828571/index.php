@@ -1,7 +1,7 @@
 <?php
 $upDate = strtotime('03-08-2019');
 
-$name = "Rori";
+$name = "RU";
 
 $empno = 9828571;
 
