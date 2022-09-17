@@ -1354,27 +1354,27 @@ $hideHeader = 'hidden-xs-up';
 
                                                <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
                                                <td class=''>7</td>
-                                               <td class='bg-primary'>COVER WEEK</td>
-                                               <td class='bg-primary'>COVER WEEK</td>
-                                               <td class='bg-primary'>COVER WEEK</td>
-                                               <td class='bg-primary'>COVER WEEK</td>
-                                               <td class='bg-primary'>COVER WEEK</td>
-                                               <td class='bg-primary'>COVER WEEK</td>
-                                               <td class='bg-primary'>COVER WEEK</td>
+                                               <td class=' red'>R</td>
+                                               <td class=' red'>R</td>
+                                               <td class=' black'>16 - 24 North Greenwich</td>
+                                               <td class=' black'>16 - 24 North Greenwich</td>
+                                               <td class=' black'>16 - 24 North Greenwich</td>
+                                               <td class=' black'>16 - 24 North Greenwich</td>
+                                               <td class=' black'>16 - 24 North Greenwich</td>
                                                <td class=''></td>
                                              </tr>
                                            <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
                                                <td class='table-active'><?php $upDate += 604800; echo date('d-m-Y', $upDate); ?></td>
                                                <td class=''>8</td>
-                                               <td class='bg-primary'>COVER WEEK</td>
-                                               <td class='bg-primary'>COVER WEEK</td>
-                                               <td class='bg-primary'>COVER WEEK</td>
-                                               <td class='bg-primary'>COVER WEEK</td>
-                                               <td class='bg-primary'>COVER WEEK</td>
-                                               <td class='bg-primary'>COVER WEEK</td>
-                                               <td class='bg-primary'>COVER WEEK</td>
-                                               <td class=''></td>
+                                               <td class=' red'>R</td>
+                                                   <td class=' red'>R</td>
+                                                   <td class=' gray'>15 - 23 Canary Wharf</td>
+                                                   <td class=' gray'>15 - 23 Canary Wharf</td>
+                                                   <td class=' gray'>15 - 23 Canary Wharf</td>
+                                                   <td class=' gray'>15 - 23 Canary Wharf</td>
+                                                   <td class=' gray'>15 - 23 Canary Wharf</td>
+                                                   <td class=''></td>
                                              </tr>
                                            <tr <?php if($upDate < $removeOldDate) { echo $hide; } ?>>
 
